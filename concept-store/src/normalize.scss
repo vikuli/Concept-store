@@ -1,3 +1,22 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+$concept-store-primary: mat.define-palette(mat.$indigo-palette);
+$concept-store-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+$concept-store-warn: mat.define-palette(mat.$red-palette);
+
+$concept-store-theme: mat.define-light-theme((
+  color: (
+    primary: $concept-store-primary,
+    accent: $concept-store-accent,
+    warn: $concept-store-warn,
+  )
+));
+
+@include mat.all-component-themes($concept-store-theme);
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
