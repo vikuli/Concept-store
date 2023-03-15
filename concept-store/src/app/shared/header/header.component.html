@@ -1,0 +1,71 @@
+<header class="header">
+  <div class="header__wrapper">
+    <h3 class="logo">
+      <a href="#" class="logo-link">CONCEPT</a>
+    </h3>
+    <div class="menu">
+      <nav
+        class="navigation"
+        [ngClass]="{ 'navigation-shift': searchInputVisibility }"
+      >
+        <ul class="navigation__list">
+          <li class="navigation__list-item">
+            <a href="#" class="navigation__list-link">HOME</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#" class="navigation__list-link">CATALOG</a>
+          </li>
+          <li class="navigation__list-item">
+            <a href="#" class="navigation__list-link">CONTACTS</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="user-list">
+        <li class="user-list__item">
+          <input
+            type="text"
+            [(ngModel)]="query"
+            #searchInput
+            placeholder="Search..."
+            class="search-input"
+            [ngClass]="{ 'search-input-open': searchInputVisibility }"
+          />
+          <button
+            class="search-button"
+            [ngClass]="{ 'search-button-active': searchInputVisibility }"
+            (click)="searchInputVisibility = !searchInputVisibility"
+          >
+            <span class="material-icons-outlined">search</span>
+          </button>
+          <button
+            class="input-button-open"
+            (click)="
+              [
+                (searchInputVisibility = !searchInputVisibility),
+                searchInputVisibility
+                  ? searchInput.focus()
+                  : searchInput.blur(),
+                (query = '')
+              ]
+            "
+            [ngClass]="{ 'input-button-close': searchInputVisibility }"
+          >
+            <span class="material-icons-outlined">{{
+              searchInputVisibility ? "close" : "search"
+            }}</span>
+          </button>
+        </li>
+        <li class="user-list__item">
+          <a href="#" class="cart"
+            ><span class="material-icons-outlined">local_mall</span></a
+          >
+        </li>
+        <li class="user-list__item">
+          <a href="#" class="account"
+            ><span class="material-icons-outlined">person_outline</span></a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
