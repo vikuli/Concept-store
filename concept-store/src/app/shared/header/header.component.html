@@ -32,8 +32,7 @@
           />
           <button
             class="search-button"
-            [ngClass]="{ 'search-button-active': searchInputVisibility }"
-            (click)="searchInputVisibility = !searchInputVisibility"
+            *ngIf="query"
           >
             <span class="material-icons-outlined">search</span>
           </button>
