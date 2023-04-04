@@ -14,7 +14,7 @@ export const tables: Tables[] = [
     height: 500,
     type: 'Coffee',
     shape: 'Rounded',
-    color: 'White',
+    color: ['White'],
   },
   {
     category: 'table',
@@ -29,7 +29,7 @@ export const tables: Tables[] = [
     height: 480,
     type: 'Coffee',
     shape: 'Rounded',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -44,7 +44,7 @@ export const tables: Tables[] = [
     height: 460,
     type: 'Coffee',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -59,7 +59,7 @@ export const tables: Tables[] = [
     height: 400,
     type: 'Coffee',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -74,7 +74,7 @@ export const tables: Tables[] = [
     height: 480,
     type: 'Coffee',
     shape: 'Rounded',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -89,7 +89,7 @@ export const tables: Tables[] = [
     height: 305,
     type: 'Coffee',
     shape: 'Rectangular',
-    color: 'White',
+    color: ['White'],
   },
   {
     category: 'table',
@@ -119,7 +119,7 @@ export const tables: Tables[] = [
     height: 320,
     type: 'Coffee',
     shape: 'Rounded',
-    color: 'White',
+    color: ['White'],
   },
   {
     category: 'table',
@@ -134,7 +134,7 @@ export const tables: Tables[] = [
     height: 470,
     type: 'Coffee',
     shape: 'Rectangular',
-    color: 'White',
+    color: ['White'],
   },
   {
     category: 'table',
@@ -149,7 +149,7 @@ export const tables: Tables[] = [
     height: 435,
     type: 'Coffee',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -164,7 +164,7 @@ export const tables: Tables[] = [
     height: 380,
     type: 'Coffee',
     shape: 'Rounded',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -179,7 +179,7 @@ export const tables: Tables[] = [
     height: 405,
     type: 'Coffee',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -194,7 +194,7 @@ export const tables: Tables[] = [
     height: 400,
     type: 'Coffee',
     shape: 'Rounded',
-    color: 'White',
+    color: ['White'],
   },
   {
     category: 'table',
@@ -253,7 +253,7 @@ export const tables: Tables[] = [
     height: 860,
     type: 'Desk',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -282,7 +282,7 @@ export const tables: Tables[] = [
     height: 760,
     type: 'Desk',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -297,7 +297,7 @@ export const tables: Tables[] = [
     height: 1200,
     type: 'Desk',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -312,7 +312,7 @@ export const tables: Tables[] = [
     height: 750,
     type: 'Desk',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -328,7 +328,7 @@ export const tables: Tables[] = [
     height: 750,
     type: 'Desk',
     shape: 'Rectangular',
-    color: 'White',
+    color: ['White'],
   },
   {
     category: 'table',
@@ -343,7 +343,7 @@ export const tables: Tables[] = [
     height: 750,
     type: 'Desk',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -358,7 +358,7 @@ export const tables: Tables[] = [
     height: 750,
     type: 'Desk',
     shape: 'Rounded',
-    color: 'White',
+    color: ['White'],
   },
   {
     category: 'table',
@@ -372,7 +372,7 @@ export const tables: Tables[] = [
     height: 750,
     type: 'Desk',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -387,7 +387,7 @@ export const tables: Tables[] = [
     height: 750,
     type: 'Dining',
     shape: 'Rounded',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -402,7 +402,7 @@ export const tables: Tables[] = [
     height: 750,
     type: 'Dining',
     shape: 'Rounded',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -417,7 +417,7 @@ export const tables: Tables[] = [
     height: 760,
     type: 'Dining',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -432,7 +432,7 @@ export const tables: Tables[] = [
     height: 760,
     type: 'Dining',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -447,7 +447,7 @@ export const tables: Tables[] = [
     height: 750,
     type: 'Dining',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -462,7 +462,7 @@ export const tables: Tables[] = [
     height: 760,
     type: 'Dining',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -477,7 +477,7 @@ export const tables: Tables[] = [
     height: 760,
     type: 'Dining',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -507,7 +507,7 @@ export const tables: Tables[] = [
     height: 760,
     type: 'Dining',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -522,7 +522,7 @@ export const tables: Tables[] = [
     height: 750,
     type: 'Dining',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -537,7 +537,7 @@ export const tables: Tables[] = [
     height: 750,
     type: 'Dining',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -552,7 +552,7 @@ export const tables: Tables[] = [
     height: 750,
     type: 'Dining',
     shape: 'Rectangular',
-    color: 'Wood',
+    color: ['Wood'],
   },
   {
     category: 'table',
@@ -567,6 +567,6 @@ export const tables: Tables[] = [
     height: 750,
     type: 'Dining',
     shape: 'Rounded',
-    color: 'Wood',
+    color: ['Wood'],
   },
 ];

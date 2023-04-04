@@ -1,14 +1,14 @@
-export interface Tables {
+export interface Chairs {
   category: string;
   name: string;
   fullName: string;
   productInfo: string;
   img: string;
   price: number;
-  length: number;
   width: number;
   height: number;
+  weight: number;
   type: string;
-  shape: string;
+  feature: string[];
   color: string[];
 }
